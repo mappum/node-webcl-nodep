@@ -1,26 +1,13 @@
 {
-  "name":"node-webcl",
+  "name":"webcl-nodep",
   "version":"0.6.1",
-  "description":"A WebCL implementation for desktops with NodeJS",
+  "description":"A fork on node-webcl without dependencies other than OpenCL",
   "main":"webcl.js",
-  "author":"Mikael Bourges-Sevenier <msevenier@motorola.com>",
+  "author":"Matt Bell <mappum@gmail.com>",
   "keywords":[ "webcl", "opencl" ],
-  "maintainers":[
-    {
-      "name":"Mikael Bourges-Sevenier",
-      "email":"msevenier@motorola.com",
-      "web":"http://www.motorola.com"
-    }
-  ],
-  "licenses":[
-    {
-      "type":"BSD",
-      "url":"https://github.com/Motorola-Mobility/node-webcl/blob/master/LICENSES"
-    }
-  ],
   "repository": {
     "type":"git",
-    "url":"https://github.com/Motorola-Mobility/node-webcl"
+    "url":"https://github.com/mappum/node-webcl-nodep"
   },
   "directories":{
     "src":"src",
@@ -34,9 +21,6 @@
   },
   "scripts":{
     "install":"node-gyp rebuild"
-  },
-  "dependencies":{
-    "node-webgl" : ""
   }
 }
 
