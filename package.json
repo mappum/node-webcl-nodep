@@ -1,7 +1,7 @@
 {
   "name":"webcl-nodep",
-  "version":"0.6.1",
-  "description":"A fork on node-webcl without dependencies other than OpenCL",
+  "version":"0.6.1-2",
+  "description":"A fork of node-webcl without dependencies other than OpenCL",
   "main":"webcl.js",
   "author":"Matt Bell <mappum@gmail.com>",
   "keywords":[ "webcl", "opencl" ],
